@@ -1,0 +1,9 @@
+streamlit
+Pillow
+requests
+together
+streamlit-lottie
+streamlit-option-menu
+extra-streamlit-components
+openai
+groq

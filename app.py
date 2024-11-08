@@ -19,10 +19,10 @@ icon("🤖")
 st.subheader("Test and Evaluate Prompts Across Multiple LLM Models", divider="rainbow", anchor=False)
 
 
-api_key = st.secrets["GROQ_API_KEY"]
-if api_key is None:
-    raise ValueError("API key is missing! Make sure you have set the GROQ_API_KEY in your .env file.")
-client = Groq(api_key=api_key)
+
+
+
+client = Groq(api_key= st.secrets["GROQ_API_KEY"])
  
 if "messages" not in st.session_state:
     st.session_state.messages = []

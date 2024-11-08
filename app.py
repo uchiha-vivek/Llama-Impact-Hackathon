@@ -22,7 +22,7 @@ st.subheader("Test and Evaluate Prompts Across Multiple LLM Models", divider="ra
 
 
 
-client = Groq(api_key= st.secrets["GROQ_API_KEY"])
+client = Groq(api_key= "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")
  
 if "messages" not in st.session_state:
     st.session_state.messages = []
